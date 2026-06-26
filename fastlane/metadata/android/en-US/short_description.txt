@@ -1,1 +1,1 @@
-A pristine, open-source Android app to keep your battery healthy.
+A pristine open-source app to keep your battery healthy
