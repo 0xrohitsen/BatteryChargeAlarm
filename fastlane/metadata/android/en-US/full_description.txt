@@ -1,0 +1,1 @@
+Set targeted battery milestones (20%, 30%, ..., 100%). The app plays an audio alarm exactly when the battery hits your chosen percentage. Never overcharge again! The alarm plays continuously when your battery reaches 100% and will loop endlessly until the charger is unplugged.
