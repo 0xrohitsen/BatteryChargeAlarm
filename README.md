@@ -2,11 +2,15 @@
 
 ![Battery Charge Alarm App Logo](app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
+<p align="center">
+  <img src="screenshots/home.png" alt="App Screenshot" width="300"/>
+</p>
+
 A modern, open-source Android application designed to keep your phone's battery healthy and prevent overcharging. Battery Charge Alarm runs silently in the background, consuming zero idle battery, and intelligently alerts you when your device reaches specific battery milestones.
 
 ## 📥 Download
 
-**[Download the latest APK here](https://github.com/0xrohitsen/BatteryChargeAlarm/raw/main/Release%20APK/BatteryChargeAlarm.apk)**
+**[Download the latest APK here](https://github.com/0xrohitsen/BatteryChargeAlarm/releases/download/v1.0.0/BatteryChargeAlarm.apk)**
 
 ## ✨ Features
 
