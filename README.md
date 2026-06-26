@@ -1,50 +1,79 @@
-# 🔋 Battery Charge Alarm
-
-![Battery Charge Alarm App Logo](app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
-
 <p align="center">
-  <img src="screenshots/home.png" alt="App Screenshot" width="300"/>
+  <img src="app/src/main/res/mipmap-xxhdpi/ic_launcher.png" alt="Logo" width="100"/>
+  <h1 align="center">🔋 Battery Charge Alarm</h1>
+  <p align="center">
+    <strong>A pristine, open-source Android app to keep your battery healthy.</strong>
+  </p>
 </p>
 
-A modern, open-source Android application designed to keep your phone's battery healthy and prevent overcharging. Battery Charge Alarm runs silently in the background, consuming zero idle battery, and intelligently alerts you when your device reaches specific battery milestones.
+<p align="center">
+  <a href="https://github.com/0xrohitsen/BatteryChargeAlarm/releases/download/v1.0.0/BatteryChargeAlarm.apk">
+    <img src="https://img.shields.io/badge/DOWNLOAD_LATEST_APK-v1.0.0-00C853?style=for-the-badge&logo=android" alt="Download APK"/>
+  </a>
+</p>
 
-## 📥 Download
+<br>
 
-**[Download the latest APK here](https://github.com/0xrohitsen/BatteryChargeAlarm/releases/download/v1.0.0/BatteryChargeAlarm.apk)**
+<p align="center">
+  <img src="screenshots/home.png" alt="Home Screen" width="30%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/settings.png" alt="Settings Screen" width="30%"/>
+</p>
 
-## ✨ Features
+<br>
 
-- **Intelligent Percentage Alarms:** Set specific battery milestones (20%, 30%, ..., 100%). The app plays an audio alarm right when the battery hits that percentage.
-- **Aggressive 100% Full Charge Loop:** Automatically prevents you from leaving your device plugged in at 100%. The alarm will play continuously until the charger is removed!
-- **Custom Audio Support:** Use the bundled voice prompts or select any custom `.mp3` audio from your device's storage.
-- **Master Kill Switch:** Instantly disable or enable the entire alarm system from the beautiful Home Dashboard.
-- **Zero Idle Battery Drain:** Fully optimized background service. The app completely goes to sleep when the charger is disconnected, using exactly 0% battery while you go about your day.
-- **Resilient Background Service:** Survives being swiped away from the Recent Apps list (Supports Android 14 and 15 background service limits).
-- **Auto-Start on Boot:** Automatically monitors your battery if the phone boots up while connected to a charger.
+---
 
-## 🛠️ Technology Stack
+## 🔥 **Core Features**
 
-Built natively for modern Android development:
-- **Kotlin:** 100% Kotlin codebase.
-- **Jetpack Compose:** Fully declarative, beautiful Material 3 UI.
-- **MVVM Architecture:** Clean separation of concerns with ViewModels.
-- **Jetpack DataStore:** Robust, type-safe local storage for user preferences.
-- **Coroutines & Flows:** Fully asynchronous audio playing and data observing.
-- **Foreground Services:** Reliable background execution via `FOREGROUND_SERVICE_SPECIAL_USE`.
+- ⚡ **Intelligent Percentage Alarms**
+  Set targeted battery milestones (20%, 30%, ..., 100%). The app plays an audio alarm *exactly* when the battery hits your chosen percentage.
+  
+- 🚨 **Aggressive 100% Full Charge Loop**
+  **Never overcharge again!** The alarm plays continuously when your battery reaches 100% and will loop endlessly until the charger is unplugged.
 
-## 🚀 Getting Started (Developers)
+- 🎵 **Custom Audio Engine**
+  Use the high-quality bundled voice prompts or select **any custom `.mp3` file** right from your device's storage.
 
-To run this project locally, simply clone the repository and open it in Android Studio.
+- 🛑 **Master Kill Switch**
+  Instantly disable or enable the entire alarm system directly from the beautifully designed Home Dashboard.
+
+- 🔋 **Absolute Zero Idle Drain**
+  Powered by an optimized background service that **completely sleeps** when the charger is disconnected, consuming **0% battery** during your normal day.
+
+- 🛡️ **Bulletproof Background Service**
+  Survives being swiped away from the Recent Apps list! Fully supports the strict Android 14 and 15 background service limitations.
+
+- 🚀 **Auto-Start on Boot**
+  Automatically begins monitoring if your phone restarts while plugged into a wall outlet.
+
+---
+
+## 🛠️ **Modern Technology Stack**
+
+This application was engineered using the latest and greatest Android development standards:
+- **Language:** 100% Kotlin
+- **UI Toolkit:** Jetpack Compose (Material 3)
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **Storage:** Jetpack DataStore (Type-safe local preferences)
+- **Concurrency:** Kotlin Coroutines & Flows
+- **System APIs:** `FOREGROUND_SERVICE_SPECIAL_USE` for modern background execution.
+
+---
+
+## 💻 **For Developers: Build it locally**
 
 ```bash
 git clone https://github.com/0xrohitsen/BatteryChargeAlarm.git
 ```
-1. Open the project in **Android Studio**.
-2. Wait for Gradle to sync the dependencies.
-3. Click **Run** to install the app on your emulator or physical device.
+1. Open the project inside **Android Studio**.
+2. Wait for Gradle to fully sync all dependencies.
+3. Click **Run** to install the application on your physical device or emulator.
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+---
 
-## 📝 License
-This project is open-source and available under the [MIT License](LICENSE).
+## 🤝 **Contributing**
+We love open source! Contributions, issues, and feature requests are highly encouraged. Feel free to open a Pull Request or check the Issues page if you want to contribute.
+
+## 📝 **License**
+This project is officially open-source and freely available under the **[MIT License](LICENSE)**.
