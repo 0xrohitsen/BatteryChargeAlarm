@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xrohitsen/BatteryChargeAlarm/releases/download/v1.0.0/BatteryChargeAlarm.apk">
+  <a href="https://github.com/0xrohitsen/BatteryChargeAlarm/releases/download/v1.0.0/BatteryChargeAlarm-Release-v1.0.0.apk">
     <img src="https://img.shields.io/badge/DOWNLOAD_LATEST_APK-v1.0.0-00C853?style=for-the-badge&logo=android" alt="Download APK"/>
   </a>
 </p>
