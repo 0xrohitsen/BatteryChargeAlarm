@@ -6,7 +6,7 @@ A modern, open-source Android application designed to keep your phone's battery 
 
 ## 📥 Download
 
-**[Download the latest APK here](https://github.com/0xrohitsen/BatteryChargeAlarm/releases)**
+**[Download the latest APK here](https://github.com/0xrohitsen/BatteryChargeAlarm/raw/main/Release%20APK/BatteryChargeAlarm.apk)**
 
 ## ✨ Features
 
